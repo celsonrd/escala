@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Validar_login extends CI_Controller {
+class Manter_militar extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -19,7 +19,8 @@ class Validar_login extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$this->load->view('header');
+		$this->load->view('manter_militar');
 	}
 }
 
